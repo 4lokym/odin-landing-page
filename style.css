@@ -215,3 +215,14 @@ button{
     font-weight: 700;
     padding-bottom: 5px;
 }
+
+/* footer styling*/
+
+.footer-bcolor{
+    background-color: #1F2937;
+    display: flex;
+    color:#E5E7EB;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
