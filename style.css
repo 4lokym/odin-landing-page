@@ -7,10 +7,11 @@ html,
 body{
     width: 100%;
     height: 100%;
+    font-family: "Roboto", sans-serif;
 }
 
 
-/*link and list default styling*/
+/* remove link and list default styling*/
 
 a,
 a:visited{
@@ -20,4 +21,44 @@ a:visited{
 
 ul{
     list-style-type: none;
+}
+
+/* body styling*/
+
+.header-bcolor,
+.top-content-bcolor,
+.center-content-bcolor,
+.quote-bcolor,
+.sign-up-window-bcolor,
+.footer-bcolor{
+    padding: 0px 200px;
+}
+
+
+/* header styling*/
+
+.header-bcolor{
+    background-color: #1F2937;
+}
+
+.header{
+    display:flex;
+    padding: 10px;
+}
+
+.logo{
+    flex: 1;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 700;
+}
+
+.links a{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.links ul{
+    display: flex;
+    gap: 20px;
 }
