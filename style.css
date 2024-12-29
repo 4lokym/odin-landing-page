@@ -43,7 +43,7 @@ ul{
 
 .header{
     display:flex;
-    padding: 10px;
+    padding: 15px;
 }
 
 .logo{
@@ -61,4 +61,48 @@ ul{
 .links ul{
     display: flex;
     gap: 20px;
+}
+
+/* styling top content*/
+
+.top-content-bcolor{
+    background-color: #1F2937;
+}
+
+.top-content{
+    display: flex;
+    padding: 100px 0;
+    gap: 15px;
+}
+
+.top-left-text{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.image-plh{
+    flex:1;
+    background-color: gray;
+}
+
+.top-left-text .one{
+    font-size: 48Px;
+    color: #F9FAF8;
+    font-weight: 700;
+}
+
+.top-left-text .two,
+.top-left-text .three{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.top-left-text button{
+    background-color: #3882F6;
+    width: fit-content;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 30px;
 }
